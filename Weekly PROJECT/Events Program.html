@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Events Demo</title>
+    <script>
+        function pageLoaded() {
+            alert("Page has loaded!");
+        }
+    </script>
+</head>
+<body onload="pageLoaded()">
+    <h2>Events Demo</h2>
+
+    <!-- onfocus -->
+    <input type="text" onfocus="this.style.backgroundColor='yellow'" placeholder="Focus here"><br><br>
+
+    <!-- onclick -->
+    <button onclick="this.innerHTML='You clicked me!'">Click Me</button><br><br>
+
+    <!-- mouse events -->
+    <div onmouseover="this.style.backgroundColor='lightblue'" 
+         onmouseout="this.style.backgroundColor='lightgray'" 
+         style="width:150px;height:100px;background-color:lightgray;text-align:center;line-height:100px;">
+        Hover over me
+    </div>
+</body>
+</html>

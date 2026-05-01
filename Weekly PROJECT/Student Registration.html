@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eef;
+        }
+
+        form {
+            background: white;
+            padding: 50px;
+            width: 300px;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            margin: 5px 0;
+            padding: 8px;
+        }
+
+        input[type="radio"], input[type="checkbox"] {
+            width: auto;
+        }
+
+        button {
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1 style="text-align:center;">Student Registration</h1>
+
+<form>
+    Full Name:
+    <input type="text">
+
+    Email:
+    <input type="email">
+
+    Password:
+    <input type="password">
+
+    Date of Birth:
+    <input type="date">
+
+    Gender:<br>
+    <input type="radio" name="g"> Male
+    <input type="radio" name="g"> Female<br><br>
+
+    Course:
+    <select>
+        <option>Computer Science</option>
+        <option>Engineering</option>
+    </select>
+
+    Skills:<br>
+    <input type="checkbox"> HTML
+    <input type="checkbox"> CSS<br><br>
+
+    Address:
+    <textarea></textarea>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+</body>
+</html>
